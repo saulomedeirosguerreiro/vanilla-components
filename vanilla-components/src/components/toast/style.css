@@ -1,0 +1,29 @@
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 350px;
+    max-width: 100%;
+    visibility: hidden;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border-radius: .25rem;
+}
+
+.toast.show {
+    visibility: visible;
+}
+
+.toast-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem .75rem;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    background-color: #FFFFFF;
+}
+
+.toast-body {
+    background-color: #FEFEFE;
+    padding: .75rem;
+}
