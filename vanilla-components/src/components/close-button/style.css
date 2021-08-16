@@ -1,0 +1,17 @@
+.close-btn {
+    color: rgba(0,0,0,.7);
+    font-size: 1.7rem;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 50%;
+}
+
+.close-btn:hover {
+    background-color: rgba(0,0,0,.07);
+    color: black;
+}
+
+.close-btn:active {
+    background-color: rgba(0,0,0,.135)
+}
