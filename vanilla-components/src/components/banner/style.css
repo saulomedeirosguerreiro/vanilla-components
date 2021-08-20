@@ -1,0 +1,38 @@
+.banner {
+    width: fit-content;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+
+.banner__text {
+    text-align: justify;
+    word-wrap: break-word;
+    padding: 0 1rem;
+}
+
+.banner__actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.banner__btn {
+    margin: 0 8px;
+    background-color: transparent;
+    border: none;
+    color: #631FEE;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.banner__btn:hover {
+    background-color: rgba(0,0,0,.05);
+    border-radius: 1rem;
+}
+
+
+.banner__btn:active {
+    color: #3f1299;
+}
