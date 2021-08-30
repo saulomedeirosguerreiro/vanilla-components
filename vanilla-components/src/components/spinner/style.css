@@ -1,0 +1,26 @@
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes blink {
+    0% { transform: none; opacity: 0; }
+    50% { transform: scale(1.5,1.5); opacity: 1;}
+}
+
+.loader {
+    width: 120px;
+    height: 120px;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+
+.growing-loader {
+    width: 30px;
+    height: 30px;
+    background-color: #3498db;
+    border-radius: 50%;
+    animation: blink .75s linear infinite;
+}
